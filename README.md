@@ -1,16 +1,49 @@
-# React + Vite
+# 3D Studio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Ovo je moderna Web aplikacija izgrađena pomoću **React**-a i **Material UI**-a. Projekat uključuje navigaciju kroz više stranica, kontakt formu sa validacijom i interaktivne elemente.
 
-Currently, two official plugins are available:
+## Tehnologije
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+* **React 18** - Frontend biblioteka
+* **Material UI (MUI)** - Komponente i dizajn sistem
+* **React Router DOM** - Navigacija kroz aplikaciju
+* **JavaScript (ES6+)** - Logika aplikacije
 
-## React Compiler
+## Funkcionalnosti
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **Glatko skrolovanje (Smooth Scroll):** Navigacija unutar početne stranice.
+* **Kontakt Forma:** Funkcionalna forma sa `onChange` handlerom i `Snackbar` obaveštenjima o uspehu.
+* **Responsive Design:** Sajt je prilagođen svim veličinama ekrana (Mobile, Tablet, Desktop) koristeći MUI Grid sistem.
+* **Custom Theme:** Personalizovane boje i tipografija (Anta i Lato fontovi).
 
-## Expanding the ESLint configuration
+## Instalacija i Pokretanje
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Da biste pokrenuli projekat lokalno, pratite ove korake:
+
+1.  **Klonirajte repozitorijum:**
+    ```bash
+    git clone [https://github.com/tvoj-username/tvoj-repo-name.git](https://github.com/tvoj-username/tvoj-repo-name.git)
+    ```
+
+2.  **Uđite u folder projekta:**
+    ```bash
+    cd tvoj-repo-name
+    ```
+
+3.  **Instalirajte zavisnosti (dependencies):**
+    ```bash
+    npm install
+    ```
+
+4.  **Pokrenite razvojni server:**
+    ```bash
+    npm run dev
+    ```
+
+Aplikacija će biti dostupna na adresi `http://localhost:5173`.
+
+## Struktura projekta
+
+- `src/pages` - Sadrži komponente stranica (Home, Contact).
+- `src/App.js` - Glavna ruta i struktura aplikacije.
+- `src/main.jsx` - Konfiguracija teme i Router-a.
