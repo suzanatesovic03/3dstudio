@@ -11,7 +11,7 @@ Ovo je moderna Web aplikacija izgrađena pomoću **React**-a i **Material UI**-a
 
 ## Funkcionalnosti
 
-* **Glatko skrolovanje (Smooth Scroll):** Navigacija unutar početne stranice.
+* **Smooth Scroll:** Navigacija unutar početne stranice.
 * **Kontakt Forma:** Funkcionalna forma sa `onChange` handlerom i `Snackbar` obaveštenjima o uspehu.
 * **Responsive Design:** Sajt je prilagođen svim veličinama ekrana (Mobile, Tablet, Desktop) koristeći MUI Grid sistem.
 * **Custom Theme:** Personalizovane boje i tipografija (Anta i Lato fontovi).
@@ -22,7 +22,7 @@ Da biste pokrenuli projekat lokalno, pratite ove korake:
 
 1.  **Klonirajte repozitorijum:**
     ```bash
-    git clone [https://github.com/tvoj-username/tvoj-repo-name.git](https://github.com/tvoj-username/tvoj-repo-name.git)
+    git clone https://github.com/suzanatesovic03/3dstudio.git
     ```
 
 2.  **Uđite u folder projekta:**
