@@ -27,7 +27,7 @@ Da biste pokrenuli projekat lokalno, pratite ove korake:
 
 2.  **Uđite u folder projekta:**
     ```bash
-    cd tvoj-repo-name
+    cd 3dstudio
     ```
 
 3.  **Instalirajte zavisnosti (dependencies):**
